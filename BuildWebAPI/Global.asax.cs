@@ -18,14 +18,6 @@ namespace WebApplication2_WebAPI
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
-
-            //serialization
-
-            //effect can be seen in internet explorer whenit downloads json file
-            //as chrome default content is xml , effect can't be seen in json or xml via browser or postman
-            //var json = GlobalConfiguration.Configuration.Formatters.JsonFormatter;
-            //json.SerializerSettings.Formatting = Newtonsoft.Json.Formatting.Indented;            
-
         }
     }
 }
